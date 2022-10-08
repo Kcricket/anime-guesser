@@ -1,5 +1,6 @@
-# anime_getter_vue
-
+# Anime Guesser
+This app takes an inamge as input and returns possible animes, scenes, and episodes it might come from 
+...
 ## Project setup
 ```
 npm install

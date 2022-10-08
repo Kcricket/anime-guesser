@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Drag an image of an anime</h2>
+    <h4>The app will give you information about it</h4>
+    <Analayzer msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Analayzer from './components/Analayzer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Analayzer
   }
 }
 </script>
